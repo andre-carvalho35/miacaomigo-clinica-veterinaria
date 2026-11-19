@@ -1,0 +1,20 @@
+{
+  "name": "miacaomigo-projeto",
+  "version": "1.0.0",
+  "description": "Projeto MiACaoMiGo integrado no esqueleto Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "joi": "^18.3.2",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
